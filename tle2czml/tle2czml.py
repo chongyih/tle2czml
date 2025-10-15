@@ -36,6 +36,16 @@ SATELLITE_COLOR_MAP = {
     "UMBRA": [255, 255, 255, 255]
 }
 
+
+# SATELLITE_COLOR_MAP = {
+#     "DS-EO": [255, 100, 255, 255],    # Bright Magenta (high contrast against black/blue)
+#     "DS-SAR": [255, 255, 100, 255],   # Bright Yellow (excellent visibility)
+#     "TELEOS-2": [100, 255, 255, 255], # Bright Cyan (good contrast)
+#     "UMBRA-05": [255, 255, 255, 255], # White (excellent visibility)
+#     "UMBRA-07": [100, 200, 255, 255], # Bright Blue (good contrast against Earth)
+#     "UMBRA-09": [255, 150, 100, 255], # Bright Orange (high visibility)
+# }
+
 class Satellite:
     'Common base class for all satellites'
 
